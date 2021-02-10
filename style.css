@@ -2,6 +2,7 @@
 .menyu{
     display: flex;
     flex-direction: row;
+    min-width: auto;
     justify-content: space-between;
     align-items: center;
     
@@ -211,7 +212,7 @@ h5{
 }
 .asosiy3{
     width: 500px;
-    margin-left: 300px;
+    margin-left: 30%;
     padding-bottom: 150px;
 }
 .yakka{
@@ -274,19 +275,19 @@ h5{
     height: 150px;
 }
 .nar{
-    margin-left: -25px;
+    margin-left: -10px;
 }
 .icon4{
     display: inline-flex;
-    margin-left: 150px;
+    margin-left: 45%;
 }
 .ong2{
     color: white;
-    margin-left: 60%;
+    margin-left: 43%;
     margin-top: 20px;
 }
 .matn1{
-    margin-left: 150px;
+    margin-left: 45%;
     color: white;
 }
 
@@ -303,7 +304,7 @@ h5{
     text-align: center;
     color: white;
     width: 1100px;
-    margin-left: 130px;
+    margin-left: 21%;
     border-top: 1px solid white;
     height: 80px;
 }
@@ -321,4 +322,72 @@ h5{
     border-radius: 5px;
 }
 
+/*  */
 
+@media (max-width:1280px){
+        .icon4{margin-left: 15%;   
+    }
+    .ong2{
+        margin-left: 65%;
+    }
+    .matn2{
+        margin-left:-55% ;
+    }
+    .asos{
+        margin-left: 6%;
+    }
+    .asosiy3{
+        margin-left: 20%;
+    }
+}
+@media (max-width:1024px){
+    body{
+        width: 100%;
+    }
+    .action{
+        width: 450px;
+        padding-top: 40px;
+    }
+    .block1{
+        width: 900px;
+    }
+    .bir{
+        margin-left: 90px;
+    }
+    .btn2{
+        margin-top: 10px;
+    }
+    .btn4{
+        margin-left: -150px;
+    }
+}
+@media (max-width:768px){
+    .ikki img{
+        
+        width: 350px;
+        margin-left: -8px;
+    }
+    .ikki{
+        
+    }
+    .bir{
+        margin-left: 50px;
+    }
+    .fon2{
+        grid-gap:50px;
+    }
+    .block1{
+        width: 750px;
+    }
+    .btn4{
+        margin-left: -700px;
+    }
+    .action{
+        width: 300px;
+        height: 60vh;
+        padding-top: 10px;
+    }
+    .inter{
+        width: 700px;
+    }
+}
